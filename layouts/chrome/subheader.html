@@ -1,0 +1,11 @@
+<header id="header">
+    <figure>
+        <a href="/" border=0 id="logolink"><img class="avatar" src="{{ .Site.Params.avatarUrl }}"></a>
+    </figure>
+
+    <a href="/" border=0 id="logolink"><div id="byline">{{ .Site.Params.author }}</div></a>
+
+    <nav id="nav">
+    {{ template "chrome/nav.html" . }}
+    </nav>
+</header>
